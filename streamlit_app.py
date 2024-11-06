@@ -106,7 +106,6 @@ def create_qa_chain_history(_docs, _memory):
         db = Chroma(persist_directory=".chroma_db", embedding_function=embeddings)
     else:
         db = Chroma.from_documents(_docs, embeddings, persist_directory=".chroma_db")
-        print("AAA")
         db.persist()  # データベースの永続化
     retriever = db.as_retriever()  # 検索機能を設定
 
