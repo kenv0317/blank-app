@@ -1,1 +1,14 @@
+langchain
+langchain-community
+langchain-google-genai
+langchain-huggingface
+sentencepiece
+Chroma
+chromadb
+pandas
 streamlit
+numpy
+requests
+beautifulsoup4
+mojimoji
+mecab-python3
